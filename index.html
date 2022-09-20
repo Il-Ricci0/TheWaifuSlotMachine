@@ -1,0 +1,83 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="vendor/bootstrap-5.2.0-dist/css/bootstrap.min.css">
+        <script src="vendor/bootstrap-5.2.0-dist/js/bootstrap.min.js"></script>
+        <script src="script.js"></script>
+    </head>
+    <body>
+    </br>
+    <header>
+        <div class='row'>
+            <div class='col-12 horizontally-centered'>
+                <h1>THE WAIFU MACHINE<h1>
+            </div>
+        </div>
+    </header>
+    </br>
+        <div class='row'>
+            <div class='col-2'>
+                <div class='card bg-primary box' id='box_1'>
+                    <img src="" id='img_1'>
+                </div>
+            </div>
+            <div class='col-2'>
+                <div class='card bg-primary box' id='box_2'>
+                    <img src="" id='img_2'>
+                </div>
+            </div>
+            <div class='col-2'>
+                <div class='card bg-primary box' id='box_3'>
+                    <img src="" id='img_3'>
+                </div>
+            </div>
+            <div class='col-2'>
+                <div class='card bg-primary box' id='box_4'>
+                    <img src="" id='img_4'>
+                </div>
+            </div>
+            <div class='col-2'>
+                <div class='card bg-primary box' id='box_5'>
+                    <img src="" id='img_5'>
+                </div>
+            </div>
+            <div class='col-2'>
+                <div class='card bg-primary box' id='box_6'>
+                    <img src="" id='img_6'>
+                </div>
+            </div>
+        </div>
+        </br>
+        <div class='card bg-light box game-menu'>
+            <div class='row'>
+                <div class='col-12'>
+                        <div class="input-group center">
+                            <div class="input-group-prepend">
+                                <button onclick="Divide()" class="btn btn-primary plus rounded-0" type="button">-10x</button>
+                                <button onclick="Multiply()" class="btn btn-primary plus rounded-0" type="button">10x</button>
+                                <button onclick="Remove()" class="btn btn-primary rounded-0" type="button">-</button>
+                                <button onclick="Add()" class="btn btn-primary plus rounded-0" type="button">+</button>
+                            </div>
+                            <input type="text" readonly class="form-control bet" placeholder="1"aria-label="Bet Amount" name="bet-amount">
+                            <div class="input-group-append">
+                                <span class="input-group-text rounded-0">€</span>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </br>
+            <div class='row'>
+                <div class='col-12 horizontally-centered'>
+                    <button type="button" class="btn btn-primary" id="spin" onclick="Spin();">SPIN</button>
+                </div>
+            </div>
+            </br>
+            <div class='row'>
+                <div class='col-12 horizontally-centered'>
+                    <h1 id="win">WON: 0€</h1>
+                    <h1 id="balance">BALANCE: 0€</h1>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

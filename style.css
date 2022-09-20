@@ -1,0 +1,44 @@
+body{
+    background-image: url("pictures/wallpaper.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.btn{
+    color:white;
+}
+.horizontally-centered{
+    text-align: center;
+}
+.box{
+    justify-content: center;
+    align-items: center;
+    width: 280px;
+    min-height: 280px;
+}
+img{
+    width:250px;
+    height: 250px;
+    background-color: white;
+}
+.card {
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 10px;
+}
+.bet{
+    max-width:100px;
+}
+.center{
+    justify-content: center;
+    align-items: center;
+}
+.plus{
+    margin-right: 5px;
+}
+.game-menu{
+    padding:20px;
+    width:800px;
+}
+header{
+    background-color: white;
+}
